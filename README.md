@@ -11,3 +11,6 @@ The main motivation for creating this setup was to have the following:
  * A standard Maven-Spring-Boot configuration for the server side
  * Standard React-Redux on the client side, with hot-reloading goodness
  * Learning both of the above :-)
+
+ 
+Note: This is a *work in progress*
