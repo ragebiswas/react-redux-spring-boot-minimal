@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/static/'
+    publicPath: '/dist/'
   },
   plugins: [
     /**
@@ -36,7 +36,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js?/,
+        test: /\.js$/,
         exclude: [/node_modules/, /styles/],
         loaders: ['babel'],
         include: path.join(__dirname, 'app')
